@@ -5,6 +5,7 @@
         <meta charset="UTF-8" />
         <title>Run Buddy</title>
     </head>
+
     <body>
         <header>
             <H1>
@@ -32,61 +33,65 @@
             <div class="hero-form">
                 <h3>Get Started Today</h3>
                 <p>Fill out this form and one of our trainers will schedule a consult</p>
-           <!-- Add form element-->
-            <form>
-               <label for="name">Enter full name:</label>
-               <input type="text" placeholder="Your Name" name="name" id="name" class="form-input"/>
-               <label for="email">Enter your email address:</label>
-
-               <input type="email" placeholder="Email Address" name="email" id="email" class="form-input"/>
-               <label for="phone">Enter a telephone number:</label>
-
-               <input type="tel" placeholder="Phone number" name="phone" id="phone" class="form-input"/>
-               <p>
-                   Have you worked out with a trainer before?
-                   <input type="radio" name="trainer-confirm" id="trainer-yes"/>
-                   <label for="trainer-yes">Yes</label>
-                   <input type="radio" name="trainer-confirm" id="trainer-no"/>
-                   <label for="trainer-no">No</label>
-               </p>
-               <button type="submit">
-                Get running!
-               </button>
-            </form>
+                <!-- Add form element-->
+                <form>
+                    <label for="name">Enter full name:</label>
+                    <input type="text" placeholder="Your Name" name="name" id="name" class="form-input"/>
+                    <label for="email">Enter your email address:</label>
+                    <input type="email" placeholder="Email Address" name="email" id="email" class="form-input"/>
+                    <label for="phone">Enter a telephone number:</label>
+                    <input type="tel" placeholder="Phone number" name="phone" id="phone" class="form-input"/>
+                    <p>
+                        Have you worked out with a trainer before?
+                        <input type="radio" name="trainer-confirm" id="trainer-yes"/>
+                        <label for="trainer-yes">Yes</label>
+                        <input type="radio" name="trainer-confirm" id="trainer-no"/>
+                        <label for="trainer-no">No</label>
+                    </p>
+                    <p>
+                        <label for="checkbox">
+                            I acknowledge that I am at least 18 years of age.
+                        </label>
+                        <input type="checkbox" name="checkpoint1" id="checkbox"/>
+                    </p>
+                    <button type="submit">
+                        Get running!
+                    </button>
+                </form>
             </div>
         </section>
 
         <section id="what-we-do" class="intro">
-            <h2>What we do</h2>
+            <h2 class="section-title primary-border">What we do</h2>
             <p>
                 butcher selfies chambray shabby chic gentrify readymade yr Echo park XOXO Tumblr normcore Banksy direct trade blue bottle chillwave you probably haven't heard of them single-origin coffee Vice fanny pack fixie Odd Future Austin fingerstache pickled twee synth Wes Anderson Thundercats viral bitters flannel meggings narwhal Marfa Schlitz sustainable Intelligentsia umami deep v craft                
             </p>
         </section>
 
-        <section id="what-you-do">
-            <h2>What you do</h2>
+        <section id="what-you-do" class="steps">
+            <h2 class="section-title secondary-border">What you do</h2>
 
             <div>
                 <img src="./assets/images/step-1.svg" alt=""/>
-                <h3>Step 1: Fill out the form above.</h3>
+                <h3>Step 1: <span>Fill out the form above.</span></h3>
                 <p>You're already here, so why not?</p>
             </div>
 
             <div>
                 <img src="./assets/images/step-2.svg" alt=""/>
-                <h3>Step 2: Consult with one of our trainers.</h3>
+                <h3>Step 2: <span>Consult with one of our trainers.</span></h3>
                 <p>Are you here to build muscle, lose weight, or just feel good?</p>
             </div>
 
             <div>
                 <img src="./assets/images/step-3.svg" alt=""/>
-                <h3>Step 3: Get Running.</h3>
-                <p>Hit the ground running (literally( once your trainers lays out your plan.</p>
+                <h3>Step 3: <span>Get Running.</span></h3>
+                <p>Hit the ground running (literally) once your trainers lays out your plan.</p>
             </div>
 
             <div>
                 <img src="./assets/images/step-4.svg" alt=""/>
-                <h3>Step 4: See Results.</h3>
+                <h3>Step 4: <span>See Results.</span></h3>
                 <p>Bi-weekly checkins with your trainer will keep you focused</p>
             </div>
         </section>
@@ -105,9 +110,6 @@
                 <a href="#">Read Our Privacy Policy</a><br />
                 &copy; 2019 Run Buddy, Inc.
             </div>
-        </footer>
-
-
-           
+        </footer>           
     </body>
 </html>
